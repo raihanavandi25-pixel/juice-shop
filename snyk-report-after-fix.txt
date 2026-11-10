@@ -1,0 +1,30 @@
+﻿
+Testing C:\Users\RAIHAN\Documents\devsecops-p7\juice-shop...
+
+Tested 497 dependencies for known issues, found 3 issues, 3 vulnerable paths.
+
+
+Issues with no direct upgrade or patch:
+  x Information Exposure [Low Severity][https://security.snyk.io/vuln/SNYK-JS-HBS-1566555] in hbs@4.4.0
+    introduced by hbs@4.4.0
+  No upgrade or patch available
+  x Arbitrary Code Injection [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-MARSDB-480405] in marsdb@0.6.11
+    introduced by marsdb@0.6.11
+  No upgrade or patch available
+  x Sandbox Bypass [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NOTEVIL-2385946] in notevil@1.3.3
+    introduced by notevil@1.3.3
+  No upgrade or patch available
+
+
+
+Organization:      raihanavandi25-pixel
+Package manager:   npm
+Target file:       package.json
+Project name:      juice-shop
+Open source:       no
+Project path:      C:\Users\RAIHAN\Documents\devsecops-p7\juice-shop
+Licenses:          enabled
+
+Tip: Detected multiple supported manifests (1), use --all-projects to scan all of them at once.
+
+
