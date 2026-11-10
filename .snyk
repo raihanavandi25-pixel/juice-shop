@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: >-
+          Tidak ada versi perbaikan; marsdb dipakai di modul tantangan Juice
+          Shop yang sengaja rentan
+        expires: 2026-12-31T00:00:00.000Z
+        created: 2026-11-10T08:00:49.869Z
+  SNYK-JS-NOTEVIL-2385946:
+    - '*':
+        reason: Tidak ada versi perbaikan; dipakai di modul tantangan Juice Shop
+        expires: 2026-12-31T00:00:00.000Z
+        created: 2026-11-10T08:00:56.723Z
+  SNYK-JS-HBS-1566555:
+    - '*':
+        reason: 'Severity Low, tidak ada versi perbaikan'
+        expires: 2026-12-31T00:00:00.000Z
+        created: 2026-11-10T08:02:01.544Z
+patch: {}
