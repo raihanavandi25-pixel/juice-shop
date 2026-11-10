@@ -1,0 +1,13 @@
+ignore:
+  'SNYK-JS-MARSDB-480405':
+    - '*':
+        reason: 'Dev-only / No patch available, accept risk for now'
+        expires: 2026-12-31
+  'SNYK-JS-NOTEVIL-2385946':
+    - '*':
+        reason: 'Dev-only / No patch available, accept risk for now'
+        expires: 2026-12-31
+  'SNYK-JS-HBS-1566555':
+    - '*':
+        reason: 'Dev-only / No patch available, accept risk for now'
+        expires: 2026-12-31
