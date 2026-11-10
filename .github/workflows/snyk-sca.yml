@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [main, develop]
+    branches: [master, main, develop]
   pull_request:
-    branches: [main]
+    branches: [master, main]
 
 jobs:
   snyk-scan:
@@ -30,4 +30,4 @@ jobs:
         run: npx snyk monitor
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
